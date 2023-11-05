@@ -12,4 +12,34 @@ public class RequestRemark {
     private String id;
     private Date created_date;
     private String content;
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public Date getCreated_date() {
+        return created_date;
+    }
+
+    public void setCreated_date(Date created_date) {
+        this.created_date = created_date;
+    }
+
+    public String getContent() {
+        return content;
+    }
+
+    public void setContent(String content) {
+        this.content = content;
+    }
+
+    public RequestRemark(String id, Date created_date, String content) {
+        this.id = id;
+        this.created_date = created_date;
+        this.content = content;
+    }
 }
